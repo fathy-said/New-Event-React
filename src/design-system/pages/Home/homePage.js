@@ -1,6 +1,7 @@
 import React from "react";
 import CreativeSpeakerContainer from "../../components/CreativeSpeakersBox/CreativeSpeakerContainer";
 import TitleHeader from "../../components/global/TitleHeader";
+import HeaderContainer from "../../components/Header/HeaderContainer";
 import NavbarBox from "../../components/Navbar/navbar";
 import OurProgramsContainer from "../../components/OurPrograms/OurProgramsContainer";
 import OurSponsorsContainer from "../../components/OurSponsors/OurSponsorsContainer";
@@ -10,6 +11,7 @@ const HomePage = () => {
     return (
         <>
             <NavbarBox />
+            <HeaderContainer />
         </>
     );
 };

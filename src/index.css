@@ -258,8 +258,9 @@
 /* =====start-NavbarBox====== */
 .navbar {
   background-color: var(--color-font-1);
-  position: fixed;
-  width: 100%;
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 10001 !important;
 }
 
 .navbar .container {}
@@ -321,6 +322,117 @@
 }
 
 /* =====end-NavbarBox====== */
+/* =====start-Header====== */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("./shard/img/andre-benz-cXU6tNxhub0-unsplash.jpg") fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 63px;
+  z-index: 999;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.431);
+  z-index: 1;
+}
+
+.hero .box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 5;
+  width: 80%;
+}
+
+
+.hero h1,
+.hero h2 {
+  color: var(--color-1);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.hero h2 {
+  font-size: var(--fn-size-22px);
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  font-size: var(--fn-size-40px);
+  margin-bottom: 40px;
+
+}
+
+.hero .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.hero .info button {
+  all: unset;
+  cursor: pointer;
+  color: var(--color-1);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: var(--fn-size-17px);
+  padding: 10px 30px;
+  border: 2px solid var(--color-1);
+  transition: var(--transition);
+  box-sizing: border-box;
+}
+
+.hero .info button:nth-child(1):hover {
+  background-color: var(--main-color-1);
+  border-color: transparent;
+
+}
+
+.hero .info button:nth-child(2) {
+  background-color: var(--main-color-1);
+  border-color: transparent;
+}
+
+.hero .info button:nth-child(2):hover {
+  background-color: transparent;
+  border: 2px solid var(--color-1);
+
+}
+
+@media (max-width:991px) {
+  .hero .info button {
+
+    padding: 10px 15px;
+    font-size: var(--fn-size-16px);
+
+  }
+
+
+
+}
+
+/* =====end-Header====== */
 body {
   height: 3000px;
+  background-color: transparent;
+  z-index: 888;
 }
