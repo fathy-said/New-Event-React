@@ -1,12 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { faEnvelope, faStar } from "@fortawesome/free-solid-svg-icons";
-import HomePage from "./design-system/pages/homePage";
+import HomePage from "./design-system/pages/Home/homePage";
 function App() {
     return (
-        <div>
-            <HomePage />
-        </div>
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                </Routes>
+            </BrowserRouter>
+        </>
     );
 }
 
