@@ -1,28 +1,22 @@
 import React from "react";
-import { programData } from "../../Data/AllData";
-import OurProgramBox from "./OurProgramBox";
+import TitleHeader from "../global/TitleHeader";
+import OurProgramsTab from "./OurProgramsTab";
+
 const OurProgramsContainer = () => {
     return (
-        <div className="container">
-            {programData.length ? (
-                programData.map((el) => {
-                    return (
-                        <OurProgramBox
-                            key={el.id}
-                            roomMap={el.roomMap}
-                            time={el.time}
-                            title={el.title}
-                            name={el.name}
-                            description={el.description}
-                            img={el.img}
-                        />
-                    );
-                })
-            ) : (
-                <h2 className=" text-center py-3 text-capitalize">
-                    not found data
-                </h2>
-            )}
+        <div className="program-box">
+            <div className="container">
+                <div className="text-center">
+                    <TitleHeader
+                        title="Our
+"
+                        titleSpan="Programs"
+                        description="Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.
+"
+                    />
+                </div>
+                <OurProgramsTab />
+            </div>
         </div>
     );
 };

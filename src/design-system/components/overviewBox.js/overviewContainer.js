@@ -4,7 +4,7 @@ import Overview from "./overview";
 import { overviewData } from "../../Data/AllData";
 const OverviewContainer = () => {
     return (
-        <div className="row bg-dark">
+        <div className="row  all-overview">
             {overviewData.length ? (
                 overviewData.map((el) => {
                     return (

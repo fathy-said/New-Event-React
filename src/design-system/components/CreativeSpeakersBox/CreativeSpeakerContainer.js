@@ -2,6 +2,7 @@ import React from "react";
 import TitleHeader from "../global/TitleHeader";
 import CreativeSpeaker from "./CreativeSpeaker";
 import { SpeakerData } from "../../Data/AllData";
+import Swiper from "./Swiper";
 const CreativeSpeakerContainer = () => {
     return (
         <div className="slider-speaker-box">
@@ -12,23 +13,7 @@ const CreativeSpeakerContainer = () => {
                 architecto"
             />
             <div className="container">
-                {SpeakerData.length ? (
-                    SpeakerData.map((el) => {
-                        return (
-                            <CreativeSpeaker
-                                img={el.img}
-                                key={el.id}
-                                name={el.name}
-                                description={el.description}
-                            />
-                        );
-                    })
-                ) : (
-                    <h2 className="text-center d-block mx-auto text-capitalize">
-                        {" "}
-                        not found data
-                    </h2>
-                )}
+                <Swiper />
             </div>
         </div>
     );

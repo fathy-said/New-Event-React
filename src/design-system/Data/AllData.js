@@ -8,6 +8,10 @@ import img2 from "../../shard/img/avatar-02.png";
 import img3 from "../../shard/img/avatar-03.png";
 import img4 from "../../shard/img/avatar-04.png";
 import img5 from "../../shard/img/avatar-05.png";
+import img6 from "../../shard/img/avatar-06.png";
+import img7 from "../../shard/img/team-05.png";
+import img8 from "../../shard/img/team-06.png";
+import img9 from "../../shard/img/team-07.jpg";
 // ===============
 
 export let overviewData = [
@@ -71,10 +75,10 @@ export let SpeakerData = [
 ];
 // ===============
 
-export let programData = [
+export let DataTab1 = [
     {
         id: "0123",
-        img: img2,
+        img: img1,
         name: "mohamed",
         roomMap: "240",
         time: "09:00 AM",
@@ -87,38 +91,64 @@ export let programData = [
         id: "02345",
         img: img2,
         name: "Ahmed",
-        roomMap: "240",
-        time: "09:00 AM",
+        roomMap: "230",
+        time: "08:00 AM",
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Recusandae reiciendis nisi quidem eveniet rerum Recusandae
                     reiciendis nisi quidem eveniet rerum`,
-        title: "introduction to design",
+        title: "front-End Development",
     },
     {
         id: "034636",
-        img: img2,
+        img: img3,
+        name: "hassan",
+        roomMap: "640",
+        time: "10:00 AM",
+        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Recusandae reiciendis nisi quidem eveniet rerum Recusandae
+                    reiciendis nisi quidem eveniet rerum`,
+        title: "backend Development",
+    },
+];
+export let DataTab2 = [
+    {
+        id: "123",
+        img: img4,
+        name: "mohamed",
+        roomMap: "40",
+        time: "06:00 AM",
+        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Recusandae reiciendis nisi quidem eveniet rerum Recusandae
+                    reiciendis nisi quidem eveniet rerum`,
+        title: "front-End Development",
+    },
+    {
+        id: "2345",
+        img: img5,
+        name: "Ahmed",
+        roomMap: "240",
+        time: "09:00 AM",
+        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Recusandae reiciendis nisi quidem eveniet rerum Recusandae
+                    reiciendis nisi quidem eveniet rerum`,
+        title: "introduction to design",
+    },
+    {
+        id: "34636",
+        img: img6,
         name: "hassan",
         roomMap: "240",
-        time: "09:00 AM",
+        time: "10:00 AM",
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Recusandae reiciendis nisi quidem eveniet rerum Recusandae
                     reiciendis nisi quidem eveniet rerum`,
-        title: "introduction to design",
+        title: "front-End Development",
     },
+];
+export let DataTab3 = [
     {
-        id: "04745",
-        img: img2,
-        name: "ibrahim",
-        roomMap: "240",
-        time: "09:00 AM",
-        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Recusandae reiciendis nisi quidem eveniet rerum Recusandae
-                    reiciendis nisi quidem eveniet rerum`,
-        title: "introduction to design",
-    },
-    {
-        id: "04345",
-        img: img2,
+        id: "123",
+        img: img7,
         name: "mohamed",
         roomMap: "240",
         time: "09:00 AM",
@@ -126,6 +156,28 @@ export let programData = [
                     Recusandae reiciendis nisi quidem eveniet rerum Recusandae
                     reiciendis nisi quidem eveniet rerum`,
         title: "introduction to design",
+    },
+    {
+        id: "2345",
+        img: img8,
+        name: "Ahmed",
+        roomMap: "130",
+        time: "09:00 AM",
+        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Recusandae reiciendis nisi quidem eveniet rerum Recusandae
+                    reiciendis nisi quidem eveniet rerum`,
+        title: "backend Development",
+    },
+    {
+        id: "34636",
+        img: img9,
+        name: "hassan",
+        roomMap: "10",
+        time: "09:00 AM",
+        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Recusandae reiciendis nisi quidem eveniet rerum Recusandae
+                    reiciendis nisi quidem eveniet rerum`,
+        title: "front-End Development",
     },
 ];
 // ===============
