@@ -4,7 +4,7 @@ import OurProgramsTab from "./OurProgramsTab";
 
 const OurProgramsContainer = () => {
     return (
-        <div className="program-box">
+        <div className="program-box" id="programs">
             <div className="container">
                 <div className="text-center">
                     <TitleHeader
