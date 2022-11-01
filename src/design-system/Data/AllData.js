@@ -200,3 +200,32 @@ export let sponsorsData = [
     },
 ];
 // ===============
+export let QuestionsData = [
+    {
+        title: "what is responsive design ?",
+        id: "12",
+        questionNum: "question-1",
+        Description: `Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Maxime consectetur totam id neque illum in esse
+                        cumque reprehenderit error corporis sed officiis animi,
+                        quidem qui, alias libero enim voluptates quis!`,
+    },
+    {
+        title: "what are latest UX developments ?",
+        id: "14",
+        questionNum: "question-2",
+        Description: `Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Maxime consectetur totam id neque illum in esse
+                       enim voluptates quis!`,
+    },
+    {
+        title: "what things about social media will bo disussed ?",
+        id: "16",
+        questionNum: "question-3",
+        Description: `Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.  neque illum in esse
+                        cumque reprehenderit error corporis sed officiis animi,
+                        quidem qui, alias libero enim voluptates quis!`,
+    },
+];
+// ===============

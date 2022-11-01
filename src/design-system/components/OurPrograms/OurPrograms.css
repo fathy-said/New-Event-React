@@ -1,0 +1,58 @@
+.program-tab {}
+
+.program-tab .all-button {}
+
+.program-tab .all-button button {
+  all: unset;
+  color: var(--color-font-1);
+  padding: 20px 10px;
+  font-size: var(--fn-size-18px);
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  z-index: 10;
+  position: relative;
+  transition: var(--transition);
+
+}
+
+.program-tab .all-button button.active,
+.program-tab .all-button button:hover {
+  color: var(--main-color-1);
+
+
+}
+
+.program-tab .all-button button::before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: -2px;
+  left: 5px;
+  right: 0;
+  background-color: var(--main-color-1);
+  width: 0;
+  height: 0px;
+  width: calc(100% - 10px);
+
+}
+
+.program-tab .all-button button.active::before,
+.program-tab .all-button button:hover::before {
+  content: "";
+  height: 2px;
+
+
+
+}
+
+.program-tab span {
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-2);
+  display: block;
+  z-index: 3;
+
+}
+
+@media (max-width: 520px) {}

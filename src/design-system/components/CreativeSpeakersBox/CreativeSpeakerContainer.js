@@ -3,6 +3,7 @@ import TitleHeader from "../global/TitleHeader";
 import CreativeSpeaker from "./CreativeSpeaker";
 import { SpeakerData } from "../../Data/AllData";
 import Swiper from "./Swiper";
+import "./CreativeSpeaker.css";
 const CreativeSpeakerContainer = () => {
     return (
         <div className="slider-speaker-box" id="speakers">

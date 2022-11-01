@@ -1,5 +1,6 @@
 import React from "react";
 import AboutImg from "../../../shard/img/about.jpg";
+import "./AboutBox.css";
 export default function AboutBox() {
     return (
         <div className="about">

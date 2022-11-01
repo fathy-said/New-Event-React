@@ -1,0 +1,73 @@
+.accordion-box {
+  overflow: hidden;
+  margin: 20px 0;
+  max-width: 1100px;
+}
+
+
+
+.accordion-box .box-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(224, 224, 224);
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  gap: 10px;
+}
+
+.accordion-box .box-title h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: var(--fn-size-20px);
+  margin: 0;
+}
+
+.accordion-box .box-title span {
+  font-size: var(--fn-size-35px);
+  font-weight: 600;
+}
+
+.accordion-box .box-description {
+  transform: translateY(-4px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  transition: var(--transition);
+  height: 0;
+  padding: 0 30px;
+
+}
+
+.accordion-box .box-description.active {
+  height: 170px;
+  padding: 20px 30px;
+
+}
+
+
+
+.accordion-box .box-description p {
+  font-size: var(--fn-size-18px);
+  font-weight: 600;
+  color: var(--color-font-2);
+  margin-bottom: 10px;
+}
+
+@media (max-width:1200px) {
+  .accordion-box .box-description.active {
+    height: 220px;
+
+  }
+}
+
+@media (max-width:768px) {
+  .accordion-box .box-description.active {
+    height: 420px;
+
+  }
+
+
+}

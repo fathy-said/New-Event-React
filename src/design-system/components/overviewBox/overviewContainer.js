@@ -1,6 +1,6 @@
 import React from "react";
 import Overview from "./overview";
-
+import "./Overview.css";
 import { overviewData } from "../../Data/AllData";
 const OverviewContainer = () => {
     return (

@@ -1,0 +1,24 @@
+.title-box {
+  padding-bottom: calc(var(--padding-bottom) - 60px);
+  padding-top: calc(var(--padding-top) - 60px);
+
+
+}
+
+.title-box h1 span,
+.title-box h1 {
+  text-transform: capitalize;
+  font-size: var(--fn-size-40px);
+  font-weight: 600;
+  color: var(--color-font-1);
+
+}
+
+.title-box h1 span {
+  color: var(--main-color-1);
+}
+
+.title-box p {
+  color: var(--color-font-2);
+  font-size: var(--fn-size-16px);
+}

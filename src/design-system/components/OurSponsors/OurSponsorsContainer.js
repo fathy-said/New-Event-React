@@ -2,6 +2,7 @@ import React from "react";
 import OurSponsorsBox from "./OurSponsorsBox";
 import { sponsorsData } from "../../Data/AllData";
 import Swiper from "./Swiper";
+import "./OurSponsors.css";
 const OurSponsorsContainer = () => {
     return (
         <div className="container d-flex justify-content-center OurSponsorsContainer">

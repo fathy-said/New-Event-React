@@ -1,6 +1,6 @@
 import React from "react";
 import Aboutvideo from "../../../shard/img/about.jpg";
-
+import "./WatchVideo.css";
 export default function WatchVideo() {
     return (
         <div className="watch-video">

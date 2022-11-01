@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./TitleHeader.css";
 const TitleHeader = ({ title, titleSpan, description }) => {
     return (
         <div className="title-box">

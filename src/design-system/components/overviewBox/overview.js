@@ -1,4 +1,6 @@
 import React from "react";
+import "./Overview.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Overview = ({ overviewPr, overviewIcon, overviewTitle }) => {
     return (

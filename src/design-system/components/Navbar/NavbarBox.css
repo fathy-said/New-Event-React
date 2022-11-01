@@ -1,0 +1,64 @@
+.navbar {
+  background-color: var(--back-color-2);
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 10001 !important;
+}
+
+.navbar .container {}
+
+.navbar .container button {
+  color: var(--back-color-3)
+}
+
+.navbar .container button span {
+  color: var(--back-color-3)
+}
+
+.navbar .container .navbar-brand {
+  padding: 15px 20px !important;
+  font-size: var(--fn-size-30px);
+  font-weight: 500;
+  color: var(--color-2);
+  padding: 0 !important;
+  text-transform: capitalize;
+}
+
+.navbar .container .navbar-brand span {
+  color: var(--main-color-1);
+}
+
+.navbar .container .navbar-collapse {
+  justify-content: flex-end;
+
+}
+
+
+.navbar .container .navbar-collapse .navbar-nav {
+  /* text-align: right; */
+}
+
+.navbar .container .navbar-collapse .nav-link {
+  padding: 10px 15px !important;
+  font-size: var(--fn-size-18px);
+  font-weight: 500;
+  color: var(--color-2);
+  transition: var(--transition);
+  text-transform: capitalize;
+}
+
+.navbar .container .navbar-collapse .nav-link.active,
+.navbar .container .navbar-collapse .nav-link:hover {
+
+  color: var(--main-color-2);
+}
+
+@media (max-width:991px) {
+  .navbar .container .navbar-collapse .navbar-nav {
+    /* text-align: left; */
+
+  }
+
+
+
+}

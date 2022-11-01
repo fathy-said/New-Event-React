@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Header.css";
 const HeaderBox = () => {
     return (
         <div className="hero" id="intro">

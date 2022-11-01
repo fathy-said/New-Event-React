@@ -1,7 +1,7 @@
 import React from "react";
 import TitleHeader from "../global/TitleHeader";
 import OurProgramsTab from "./OurProgramsTab";
-
+import "./OurPrograms.css";
 const OurProgramsContainer = () => {
     return (
         <div className="program-box" id="programs">

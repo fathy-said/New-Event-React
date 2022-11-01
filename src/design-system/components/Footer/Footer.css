@@ -1,0 +1,76 @@
+.footer {
+  padding-top: calc(var(--padding-top) + 30px);
+  padding-bottom: calc(var(--padding-top) + 30px);
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer .container h5 {
+
+  font-size: var(--fn-size-17px);
+  font-weight: 500;
+  color: var(--color-font-2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.footer .container h5 span {}
+
+.footer .container h5 span:nth-child(1) {}
+
+.footer .container h5 span:nth-child(2) {
+  color: var(--main-color-1);
+  font-weight: 700;
+}
+
+.footer .container .box-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.footer .container .box-icon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.footer .container .box-icon a {
+
+  font-size: var(--fn-size-20px);
+  font-weight: bold;
+  color: var(--color-font-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: var(--transition);
+  background-color: transparent;
+}
+
+.footer .container .box-icon a:hover {
+
+  background-color: var(--main-color-1);
+  width: 50px;
+  height: 50px;
+}
+
+.footer .container .box-icon i {
+
+  font-weight: bold;
+}

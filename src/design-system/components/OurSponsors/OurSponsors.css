@@ -1,0 +1,138 @@
+.OurSponsorsContainer {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+.program-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.program-box .box-img {
+  width: 160px;
+  height: 160px;
+
+}
+
+.program-box .box-img img {
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.program-box .box-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.program-box .box-body .our-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.program-box .box-body .our-box span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: var(--fn-size-14px);
+  color: var(--color-font-2);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.program-box .box-body .our-box span i {}
+
+.program-box .box-body h2 {
+  font-size: var(--fn-size-28px);
+  color: var(--color-font-2);
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.program-box .box-body h6 {
+  font-size: var(--fn-size-14px);
+  color: var(--color-font-2);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.program-box .box-body p {
+  font-size: var(--fn-size-14px);
+  color: var(--color-font-2);
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+@media (max-width:520px) {
+  .program-box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .program-box .box-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.sponsor-box {
+
+  width: 280px;
+  height: 150px;
+  background-color: var(--back-color-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  flex-wrap: wrap;
+
+}
+
+.sponsor-box h2 {
+  font-size: var(--fn-size-25px);
+  color: var(--main-color-1);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+.OurSponsorsContainer .swiper-slide {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.OurSponsorsContainer .swiper-slide {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+
+.slider-speaker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

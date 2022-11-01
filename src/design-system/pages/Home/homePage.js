@@ -1,16 +1,21 @@
 import React from "react";
-import AboutContainer from "../../components/About/AboutContainer";
-import ContactContainer from "../../components/Contact/ContactContainer";
-import CreativeSpeakerContainer from "../../components/CreativeSpeakersBox/CreativeSpeakerContainer";
-import FooterContainer from "../../components/Footer/FooterContainer";
-import HeaderContainer from "../../components/Header/HeaderContainer";
-import NavbarBox from "../../components/Navbar/navbar";
-import OurProgramsContainer from "../../components/OurPrograms/OurProgramsContainer";
-import OurSponsorsContainer from "../../components/OurSponsors/OurSponsorsContainer";
-import OverviewContainer from "../../components/overviewBox.js/overviewContainer";
-import RegisterContainer from "../../components/Register/RegisterContainer";
-import VenueContainer from "../../components/Venue/VenueContainer";
-import WatchVideoContainer from "../../components/WatchVideo/WatchVideoContainer";
+
+//
+import {
+    AboutContainer,
+    NavbarBox,
+    HeaderContainer,
+    OverviewContainer,
+    WatchVideoContainer,
+    CreativeSpeakerContainer,
+    OurProgramsContainer,
+    RegisterContainer,
+    QuestionContainer,
+    VenueContainer,
+    OurSponsorsContainer,
+    ContactContainer,
+    FooterContainer,
+} from "../../components/index.js";
 const HomePage = () => {
     return (
         <>
@@ -22,10 +27,9 @@ const HomePage = () => {
             <CreativeSpeakerContainer />
             <OurProgramsContainer />
             <RegisterContainer />
-            <OurSponsorsContainer />
+            <QuestionContainer />
             <VenueContainer />
             <OurSponsorsContainer />
-
             <ContactContainer />
             <FooterContainer />
         </>
