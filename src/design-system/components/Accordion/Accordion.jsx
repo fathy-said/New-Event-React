@@ -15,7 +15,7 @@ const Accordion = ({ Title, Description, questionNum }) => {
                     }}
                 >
                     <h2>{Title} </h2>
-                    <span>+</span>
+                    <span>{getActive === questionNum ? "-" : "+"} </span>
                 </div>
                 <div
                     className={
